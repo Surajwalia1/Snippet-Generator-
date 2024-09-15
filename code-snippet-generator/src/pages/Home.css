@@ -1,0 +1,39 @@
+/* src/pages/Home.css */
+.home {
+  height: 100vh; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/main.webp');
+ /* Replace with your actual path */
+  background-size: cover; /* Cover the entire background */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home-content {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Add transparency to make the text readable */
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff; /* Text color to stand out on dark background */
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}

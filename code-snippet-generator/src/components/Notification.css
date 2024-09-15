@@ -1,0 +1,34 @@
+.notification {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #2ecc71;
+    background-color: #d4efdf;
+    border-radius: 8px;
+    color: #27ae60;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.notification p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.notification a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.notification a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
