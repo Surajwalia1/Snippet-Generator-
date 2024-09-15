@@ -11,7 +11,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post(process.env.REACT_APP_BACKEND_URL + '/api/auth/login', { email, password });
+      const response = await axios.post('https://concerned-kirstyn-walia-org-5a2b3dc0.koyeb.app/api/auth/login', { email, password });
       localStorage.setItem('token', response.data.token); // Store JWT token
 
       console.log(response.data)
