@@ -1,9 +1,3 @@
-Surajwalia1
-/
-Snippet-Generator-
-
-
-
 # AI-Based Code Snippet Generator for Developers
 
 Welcome to the **AI-Based Code Snippet Generator**! This cutting-edge project leverages artificial intelligence to swiftly and accurately generate code snippets based on your prompts. Designed with developers in mind, it integrates a sleek, user-friendly interface with robust backend functionalities, offering seamless user authentication, real-time notifications, and powerful AI-driven code generation.
@@ -33,14 +27,14 @@ Follow these detailed steps to get your development environment up and running:
 1. **Clone the Repository**:
     Start by cloning the repository to your local machine. This will create a local copy of the project:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/Surajwalia1/Snippet-Generator.git
     ```
-    Replace `your-username` and `your-repo-name` with your GitHub username and repository name.
+    Replace `Surajwalia1` and Snippet-Generator` with your GitHub username and repository name.
 
 2. **Navigate to the Project Directory**:
     Move into the project directory to begin the setup process:
     ```bash
-    cd your-repo-name
+    cd Snippet-Generator
     ```
 
 3. **Install Dependencies**:
@@ -55,10 +49,10 @@ Follow these detailed steps to get your development environment up and running:
     In the `backend` directory, create a `.env` file to store environment variables. This file will hold sensitive information like API keys:
     ```env
     PORT=5000
-    FIREBASE_API_KEY=your-firebase-api-key
-    FIREBASE_AUTH_DOMAIN=your-firebase-auth-domain
-    FIREBASE_PROJECT_ID=your-firebase-project-id
-    OPENAI_API_KEY=your-openai-api-key
+    FIREBASE_API_KEY
+    FIREBASE_AUTH_DOMAIN
+    FIREBASE_PROJECT_ID
+    OPENAI_API_KEY
     ```
     Replace placeholder values with your actual API keys and Firebase configuration details.
 
@@ -93,9 +87,6 @@ Here’s a glimpse of the application in action:
 
 ![Dashboard](src/assets/dashboard-screenshot.png)
 
-## 📁 Project Structure
-
-Here’s an overview of the project’s structure:
 
 
 
