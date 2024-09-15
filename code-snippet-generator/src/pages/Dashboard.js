@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom'; // React Router for navigation
 import './Dashboard.css'; // Import the CSS file
 import CodeGenerator from '../components/CodeGenerator';
-import Notification from '../components/Notification ';
+import Notification from '../components/Notification';
 
 const Dashboard = () => {
   const navigate = useNavigate(); // React Router's hook for navigation

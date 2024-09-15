@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './Signup.css'; // Import the CSS file
-const url= "http://127.0.0.1:5000";
 const Signup = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -11,7 +10,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post(url+'/api/auth/register', { email, password });
+      await axios.post(process.env.REACT_APP_BACKEND_URL+'/api/auth/register', { email, password });
       window.location.href = '/login'; // Redirect to login after successful signup
     } catch (err) {
       setError('Error creating account. Please try again.');

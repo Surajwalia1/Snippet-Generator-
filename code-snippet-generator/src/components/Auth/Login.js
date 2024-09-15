@@ -8,11 +8,10 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  const url= "http://127.0.0.1:5000";
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post(url + '/api/auth/login', { email, password });
+      const response = await axios.post(process.env.REACT_APP_BACKEND_URL + '/api/auth/login', { email, password });
       localStorage.setItem('token', response.data.token); // Store JWT token
 
       console.log(response.data)

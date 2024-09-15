@@ -34,7 +34,7 @@ const Notification = () => {
       {loading ? (
         <p>Checking for updates...</p>
       ) : status === 'ready' ? (
-        <p>Your code snippet is ready! <a href="/generated-code">View Code</a></p>
+        <p>Your code snippet is ready! </p>
       ) : (
         <p>Code snippet is still being generated...</p>
       )}

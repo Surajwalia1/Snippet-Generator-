@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './CodeGenerator.css'; // Import the CSS file
 
-const url= "http://127.0.0.1:5000";
 const CodeGenerator = () => {
   const [description, setDescription] = useState('');
   const [generatedCode, setGeneratedCode] = useState('');
@@ -14,7 +13,7 @@ const CodeGenerator = () => {
   const handleGenerate = async () => {
     setLoading(true);
     try {
-      const response = await axios.post(url + '/api/code/generate', { description }, {
+      const response = await axios.post(process.env.REACT_APP_BACKEND_URL + '/api/code/generate', { description }, {
         headers: {
           'Authorization': token
         }
