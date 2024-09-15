@@ -10,7 +10,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post(process.env.REACT_APP_BACKEND_URL+'/api/auth/register', { email, password });
+      await axios.post('https://concerned-kirstyn-walia-org-5a2b3dc0.koyeb.app/api/auth/register', { email, password });
       window.location.href = '/login'; // Redirect to login after successful signup
     } catch (err) {
       setError('Error creating account. Please try again.');
