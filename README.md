@@ -81,11 +81,7 @@ Follow these detailed steps to get your development environment up and running:
 - **Generate Code**: Use the intuitive interface to enter your prompts and generate code snippets effortlessly.
 - **Receive Notifications**: Get instant updates when your code snippets are ready, ensuring you're always in the loop.
 
-## 📸 Screenshots
 
-Here’s a glimpse of the application in action:
-
-![Dashboard](src/assets/dashboard-screenshot.png)
 
 
 
